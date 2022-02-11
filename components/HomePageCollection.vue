@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      projectFilePath: "@/assets/js/p5_projects/InspiredByWhite_static.js",
+      projectFilePath: "/js/p5_projects/InspiredByWhite_static.js",
     };
   },
 };
