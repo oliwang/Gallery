@@ -16,6 +16,9 @@ export default {
         script: [
           {
              src: this.projectFilePath
+          },
+          {
+             src: "/Gallery" + this.projectFilePath
           }
         ],
       }

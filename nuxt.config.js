@@ -20,9 +20,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: [
-      { src: 'js/p5_projects/p5.min.js' },
-    ]
   },
 
   server: {
