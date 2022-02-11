@@ -12,13 +12,14 @@
 export default {
   props: ['projectFilePath'],
   head() {
+      // console.log("base", this.$router.options.base);
       return {
         script: [
           {
              src: this.projectFilePath
           },
           {
-             src: "/Gallery" + this.projectFilePath
+             src: this.$router.options.base + this.projectFilePath
           }
         ],
       }

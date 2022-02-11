@@ -26,7 +26,7 @@
               the first programming language I learned.
             </p>
           </div>
-          <h4 class="link pdi text-xl text-right">
+          <h4 class="link text-xl text-right">
             To Collection
             <span class="icon"
               ><font-awesome-icon :icon="['fas', 'arrow-right']"
@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      projectFilePath: "/js/p5_projects/InspiredByWhite_static.js",
+      projectFilePath: "js/p5_projects/InspiredByWhite_static.js",
     };
   },
 };
